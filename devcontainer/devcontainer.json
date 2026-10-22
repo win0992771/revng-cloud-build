@@ -1,0 +1,10 @@
+{
+    "name": "rev.ng Cloud Build Environment",
+    "image": "://microsoft.com",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {
+            "version": "latest"
+        }
+    },
+    "postCreateCommand": "bash .devcontainer/setup.sh"
+}
